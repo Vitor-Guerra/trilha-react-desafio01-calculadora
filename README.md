@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Calculadora em React (Windows Theme)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto de calculadora desenvolvido em React como parte de um desafio da plataforma DIO (Digital Innovation One). A calculadora oferece funcionalidades básicas de soma, multiplicação, divisão, subtração e cálculo do módulo entre dois números. Apesar de um projeto básico é ideal para quem quer se familiarizar ainda mais com a biblioteca React. 
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- **Soma**: Realiza a adição entre dois números.
+- **Subtração**: Realiza a subtração entre dois números.
+- **Multiplicação**: Realiza a multiplicação entre dois números. (DESAFIO)
+- **Divisão**: Realiza a divisão entre dois números. (DESAFIO)
+- **Módulo**: Calcula o módulo entre dois números. (DESAFIO)
+- **Decimais**: Opera com números decimais. (DESAFIO)
+- **Persistência**: Recupera valores de resultados. (DESAFIO)
 
-### `npm start`
+## Como Usar
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone o repositório para sua máquina local:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+git clone https://github.com/Vitor-Guerra/trilha-react-desafio01-calculadora
+```
 
-### `npm test`
+2. Navegue até o diretório do projeto:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+cd trilha-react-desafio01-calculadora
+```
 
-### `npm run build`
+3. Instale as dependências:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm install styled-component
+npm install react-script --save
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Inicie o servidor de desenvolvimento:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm start
+```
 
-### `npm run eject`
+5. Acesse a calculadora em seu navegador:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+http://localhost:3000
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Tecnologias Utilizadas
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- React: Utilizado para criar a interface de usuário dinâmica e responsiva.
+- JavaScript: Linguagem de programação principal para a lógica do aplicativo.
+- HTML e CSS: Utilizados para estruturação e estilização da interface.
+- Styled-components: Utilizado para estilizar os componentes de forma mais dinâmica e eficiente.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Estrutura do Projeto
 
-## Learn More
+- **src/**: Contém os arquivos-fonte do aplicativo.
+  - **components/**: Componentes React reutilizáveis.
+  - **App.js**: Componente principal que renderiza a aplicação.
+  - **index.js**: Arquivo de entrada do React.
+  - **global.js**: Arquivo de indexação do styled component.
+  - **styles.js**: Arquivo de estilos globais do React.
+- **public/**: Contém os arquivos estáticos da aplicação.
+- **README.md**: Documentação do projeto.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contribuindo
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests com melhorias, correções de bugs ou novas funcionalidades. Lembrando que esse repositório é um desafio lançado pela plataforma [DIO](https://dio.me). Para acessar a versão original do desafio visite o [reposítorio GitHub](https://github.com/digitalinnovationone/trilha-react-desafio01-calculadora).

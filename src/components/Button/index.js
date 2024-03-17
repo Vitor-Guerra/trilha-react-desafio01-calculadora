@@ -1,12 +1,18 @@
 
-import { ButtonContainer } from './styles';
+import { ButtonContainer, CustomButton } from './styles';
 
 const Button = ({label, onClick}) => {
-    return (
+  return(
+    label !== "=" ? (
       <ButtonContainer onClick={onClick} type="button">
-       {label}
+        {label}
       </ButtonContainer>
-    );
-  }
+    ) : (
+      <CustomButton onClick={onClick} type="button">
+        {label}
+      </CustomButton>
+    )
+  )
+}
   
-  export default Button;
+export default Button;
